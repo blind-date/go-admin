@@ -109,7 +109,7 @@ definitions:
         description: 编码
         type: integer
       deptName:
-        description: 部门名称
+        description: 城市名称
         type: string
       deptPath:
         description: 路径
@@ -121,7 +121,7 @@ definitions:
         description: 负责人
         type: string
       parentId:
-        description: 上级部门
+        description: 上级城市
         type: integer
       phone:
         description: 手机
@@ -545,10 +545,10 @@ definitions:
       dataScope:
         type: string
       deptId:
-        description: 部门编码
+        description: 城市编码
         type: integer
       deptName:
-        description: 部门名称
+        description: 城市名称
         type: string
       deptPath:
         type: string
@@ -561,7 +561,7 @@ definitions:
       params:
         type: string
       parentId:
-        description: 上级部门
+        description: 上级城市
         type: integer
       phone:
         description: 手机
@@ -953,9 +953,9 @@ paths:
             type: string
       security:
       - Bearer: []
-      summary: 删除部门
+      summary: 删除城市
       tags:
-      - 部门
+      - 城市
     get:
       description: 分页列表
       parameters:
@@ -978,9 +978,9 @@ paths:
             $ref: '#/definitions/response.Response'
       security:
       - Bearer: []
-      summary: 分页部门列表数据
+      summary: 分页城市列表数据
       tags:
-      - 部门
+      - 城市
     post:
       consumes:
       - application/json
@@ -999,9 +999,9 @@ paths:
             type: string
       security:
       - Bearer: []
-      summary: 添加部门
+      summary: 添加城市
       tags:
-      - 部门
+      - 城市
   /api/v1/dept/{deptId}:
     get:
       description: 获取JSON
@@ -1021,9 +1021,9 @@ paths:
             $ref: '#/definitions/response.Response'
       security:
       - Bearer: []
-      summary: 部门列表数据
+      summary: 城市列表数据
       tags:
-      - 部门
+      - 城市
     put:
       consumes:
       - application/json
@@ -1047,9 +1047,9 @@ paths:
             type: string
       security:
       - Bearer: []
-      summary: 修改部门
+      summary: 修改城市
       tags:
-      - 部门
+      - 城市
   /api/v1/dict-data/option-select:
     get:
       description: 数据字典根据key获取

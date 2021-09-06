@@ -16,7 +16,7 @@ type SysUser struct {
 	Avatar   string `json:"avatar" gorm:"type:varchar(255);comment:头像"`
 	Sex      string `json:"sex" gorm:"type:varchar(255);comment:性别"`
 	Email    string `json:"email" gorm:"type:varchar(128);comment:邮箱"`
-	DeptId   int    `json:"deptId" gorm:"type:bigint(20);comment:部门"`
+	DeptId   int    `json:"deptId" gorm:"type:bigint(20);comment:城市"`
 	PostId   int    `json:"postId" gorm:"type:bigint(20);comment:岗位"`
 	Remark   string `json:"remark" gorm:"type:varchar(255);comment:备注"`
 	Status   string `json:"status" gorm:"type:varchar(4);comment:状态"`

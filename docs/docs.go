@@ -178,9 +178,9 @@ var doc = `{
                 ],
                 "description": "分页列表",
                 "tags": [
-                    "部门"
+                    "城市"
                 ],
-                "summary": "分页部门列表数据",
+                "summary": "分页城市列表数据",
                 "parameters": [
                     {
                         "type": "string",
@@ -221,9 +221,9 @@ var doc = `{
                     "application/json"
                 ],
                 "tags": [
-                    "部门"
+                    "城市"
                 ],
-                "summary": "添加部门",
+                "summary": "添加城市",
                 "parameters": [
                     {
                         "description": "data",
@@ -252,9 +252,9 @@ var doc = `{
                 ],
                 "description": "删除数据",
                 "tags": [
-                    "部门"
+                    "城市"
                 ],
-                "summary": "删除部门",
+                "summary": "删除城市",
                 "parameters": [
                     {
                         "description": "body",
@@ -285,9 +285,9 @@ var doc = `{
                 ],
                 "description": "获取JSON",
                 "tags": [
-                    "部门"
+                    "城市"
                 ],
-                "summary": "部门列表数据",
+                "summary": "城市列表数据",
                 "parameters": [
                     {
                         "type": "string",
@@ -322,9 +322,9 @@ var doc = `{
                     "application/json"
                 ],
                 "tags": [
-                    "部门"
+                    "城市"
                 ],
-                "summary": "修改部门",
+                "summary": "修改城市",
                 "parameters": [
                     {
                         "type": "integer",
@@ -2966,7 +2966,7 @@ var doc = `{
                     "type": "integer"
                 },
                 "deptName": {
-                    "description": "部门名称",
+                    "description": "城市名称",
                     "type": "string"
                 },
                 "deptPath": {
@@ -2982,7 +2982,7 @@ var doc = `{
                     "type": "string"
                 },
                 "parentId": {
-                    "description": "上级部门",
+                    "description": "上级城市",
                     "type": "integer"
                 },
                 "phone": {
@@ -3607,11 +3607,11 @@ var doc = `{
                     "type": "string"
                 },
                 "deptId": {
-                    "description": "部门编码",
+                    "description": "城市编码",
                     "type": "integer"
                 },
                 "deptName": {
-                    "description": "部门名称",
+                    "description": "城市名称",
                     "type": "string"
                 },
                 "deptPath": {
@@ -3629,7 +3629,7 @@ var doc = `{
                     "type": "string"
                 },
                 "parentId": {
-                    "description": "上级部门",
+                    "description": "上级城市",
                     "type": "integer"
                 },
                 "phone": {
