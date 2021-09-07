@@ -4,7 +4,7 @@ rm -rf go-admin
 sleep 1
 
 echo "... build ..."
-go build main.go
+go build -o go-admin main.go
 sleep 1
 
 echo "... killall ..."
