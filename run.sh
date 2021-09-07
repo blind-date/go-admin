@@ -16,4 +16,4 @@ chmod -R 777 go-admin
 sleep 1
 
 echo "... run ..."
-nohup ./go-admin &
+nohup ./go-admin server -c=config/settings.yml &
